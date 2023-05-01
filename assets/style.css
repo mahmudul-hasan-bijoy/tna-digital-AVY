@@ -1,5 +1,6 @@
 @font-face { 
-    font-family: Frutiger Bold; src: url('Fonts/Frutiger-Bold.ttf'); 
+    font-family: Frutiger Bold; src: url('Fonts/Frutiger-Bold.ttf');
+    font-family: Frutiger Bold; src: url('Fonts/FrutigerLTStd-Roman.ttf');
 } 
 
 .w-10 {
@@ -558,7 +559,9 @@ body {
     position: absolute;
     width: 6.54%;
     height: auto;
-    top: 29.5%;
+
+    top: 31.5%;
+
     left: 30%;
     opacity: 0;
     animation-name: arrowanim;
@@ -589,9 +592,8 @@ body {
 .sustainable-anim-div {
     position: absolute;
 
-    margin-left: 5px;
-    
-    top: 29%;
+    top: 31%;
+
     left: 0%;
     opacity: 0;
     animation-name: sustainableanim;
@@ -612,7 +614,7 @@ body {
 
 .snacks-anim-div {
     position: absolute;
-    top: 33%;
+    top: 35%;
     left: 0%;
     opacity: 0;
     animation-name: snacksanim;
@@ -632,7 +634,7 @@ body {
 
 .calculator-anim-div {
     position: absolute;
-    top: 37%;
+    top: 39%;
     left: 0%;
     opacity: 0;
     animation-name: calculatorsanim;
@@ -656,12 +658,15 @@ body {
     width: 45%;
     text-align: right;
     letter-spacing: -0.01em;
-    font-family: 'Frutiger Bold';
+
+/*    font-family: "Frutiger Light";*/
+
     font-style: normal;
     font-size: 1.5vh;
     line-height: normal;
-    top: 43%;
-    right: 10%;
+
+    top: 45%;
+    right: 8%;
 }
 
 
@@ -697,7 +702,9 @@ body {
     background-size: 100% 100%;
     width: 27.74%;
     height: 3.65%;
-    top: 52%;
+
+    top: 54%;
+
     left: 20%;
     opacity: 0;
     animation: buttonanim 0.7s linear 5s forwards,
