@@ -588,6 +588,9 @@ body {
 
 .sustainable-anim-div {
     position: absolute;
+
+    margin-left: 5px;
+    
     top: 29%;
     left: 0%;
     opacity: 0;
